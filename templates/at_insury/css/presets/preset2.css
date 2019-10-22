@@ -1,0 +1,177 @@
+a {
+  color: #3d449a;
+}
+a:hover {
+  color: #2f3475;
+}
+.sp-megamenu-parent >li.active>a,
+.sp-megamenu-parent >li:hover>a {
+  color: #3d449a;
+}
+.sp-megamenu-parent .sp-dropdown li.sp-menu-item >a:hover {
+  background: #3d449a;
+}
+.sp-megamenu-parent .sp-dropdown li.sp-menu-item.active>a {
+  color: #3d449a;
+}
+#offcanvas-toggler >i {
+  color: #000000;
+}
+#offcanvas-toggler >i:hover {
+  color: #3d449a;
+}
+.btn-primary,
+.sppb-btn-primary {
+  border-color: #343a84;
+  background-color: #3d449a;
+}
+.btn-primary:hover,
+.sppb-btn-primary:hover {
+  border-color: #272c63;
+  background-color: #2f3475;
+}
+ul.social-icons >li a:hover {
+  color: #3d449a;
+}
+.sp-page-title {
+  background: #3d449a;
+}
+.layout-boxed .body-innerwrapper {
+  background: #ffffff;
+}
+.sp-module ul >li >a {
+  color: #000000;
+}
+.sp-module ul >li >a:hover {
+  color: #3d449a;
+}
+.sp-module .latestnews >div >a {
+  color: #000000;
+}
+.sp-module .latestnews >div >a:hover {
+  color: #3d449a;
+}
+.sp-module .tagscloud .tag-name:hover {
+  background: #3d449a;
+}
+.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li.active > a,
+.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li > a:hover {
+  background: #3d449a;
+}
+.search .btn-toolbar button {
+  background: #3d449a;
+}
+.post-format {
+  background: #3d449a;
+}
+.voting-symbol span.star.active:before {
+  color: #3d449a;
+}
+.sp-rating span.star:hover:before,
+.sp-rating span.star:hover ~ span.star:before {
+  color: #2f3475;
+}
+.entry-link,
+.entry-quote {
+  background: #3d449a;
+}
+blockquote {
+  border-color: #3d449a;
+}
+.carousel-left:hover,
+.carousel-right:hover {
+  background: #3d449a;
+}
+#sp-footer {
+  background: #3d449a;
+}
+.sp-comingsoon body {
+  background-color: #3d449a;
+}
+.pagination>li>a,
+.pagination>li>span {
+  color: #000000;
+}
+.pagination>li>a:hover,
+.pagination>li>a:focus,
+.pagination>li>span:hover,
+.pagination>li>span:focus {
+  color: #000000;
+}
+.pagination>.active>a,
+.pagination>.active>span {
+  border-color: #3d449a;
+  background-color: #3d449a;
+}
+.pagination>.active>a:hover,
+.pagination>.active>a:focus,
+.pagination>.active>span:hover,
+.pagination>.active>span:focus {
+  border-color: #3d449a;
+  background-color: #3d449a;
+}
+/***** PRESET *****/
+.at-feature-item ul li:before {
+    background: url(../../images/presets/preset2/tick-item-feature2.png) no-repeat;
+}
+.at-question-content i,
+.at-count-down-item h2,
+.at-work-item:hover h5,
+#sp-slide-wrapper .large_bold_darkblue,
+#sp-slide-wrapper strong,
+#at-team .sppb-text-left i:hover,
+.at-feature-item ul li:hover,
+.at-team-member-social ul li,
+.at-icon-box-item:hover .sppb-icon span i,
+.lt-introduction .lt-intro-sub:hover h3,
+#sp-slide-wrapper .ltmediumlightblack,
+.lt-introduction .lt-intro-sub:hover i,
+.lt-testimonial .ltsmalltext span,
+.lt-banner-sub-left h3,
+.lt-banner-sub-right h3 {
+    color: #3d449a!important;
+}
+.button,
+.pp-button,
+#at-skill,
+#at-intro,
+#sp_qc_submit,
+.progress-bar-sept,
+#at-icon-box-bottom,
+#at-pricing .sppb-row > div:nth-child(2n) .at-pricing-item-head-title,
+.at-team-member:hover .at-team-member-social ul li a:hover,
+.at-count-down-item h2:after,
+.projects-filter a.selected, 
+.projects-filter a.selected:hover,
+#sp-slide-wrapper .tp-button:hover,
+.at-team-item .sppb-addon-text:after,
+.at-intro-banner-item .button:hover,
+.at-icon-box2-item:hover span,
+#sp-slide-wrapper .tp-button,
+.lt-services-sub-special {
+    background: #3d449a!important;
+}
+.blogDate {
+    background: #3d449a!important;
+}
+#sp-slide-wrapper .lt-button:hover,
+.lt-button:hover {
+    border: 3px solid #3d449a;
+}
+.tp-button,
+.projects-filter a,
+.item-page .project-img,
+.at-icon-box2-item:hover span {
+   border-color: #3d449a!important;
+}
+#at-map:after {
+   background: rgba(180, 124, 230, .7);
+}
+.projects-filter a.selected, 
+.projects-filter a.selected:hover,
+.projects-filter a:hover {
+    background: #3d449a!important;
+}
+.projects-wrapper .project-img:hover .project-img-extra {
+    background: rgba(61, 68, 154, .7)!important;
+}

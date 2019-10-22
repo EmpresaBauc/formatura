@@ -1,0 +1,181 @@
+a {
+  color:#fbc02d;
+}
+a:hover {
+  color: #0e9cd1;
+}
+.sp-megamenu-parent >li.active>a,
+.sp-megamenu-parent >li:hover>a {
+  background: #fbc02d;
+}
+.sp-megamenu-parent .sp-dropdown li.sp-menu-item >a:hover {
+  background: #fbc02d;
+}
+.sp-megamenu-parent .sp-dropdown li.sp-menu-item.active>a {
+  color: #fbc02d;
+}
+#offcanvas-toggler >i {
+  color: #000000;
+}
+#offcanvas-toggler >i:hover {
+  color: #fbc02d;
+}
+.btn-primary,
+.sppb-btn-primary {
+  border-color: #0faae4;
+  background-color: #fbc02d;
+}
+.btn-primary:hover,
+.sppb-btn-primary:hover {
+  border-color: #0d8ab9;
+  background-color: #0e9cd1;
+}
+ul.social-icons >li a:hover {
+  color: #fbc02d;
+}
+.sp-page-title {
+  background: #fbc02d;
+}
+.layout-boxed .body-innerwrapper {
+  background: #ffffff;
+}
+.sp-module ul >li >a {
+  color: #000000;
+}
+.sp-module ul >li >a:hover {
+  color: #fbc02d;
+}
+.sp-module .latestnews >div >a {
+  color: #000000;
+}
+.sp-module .latestnews >div >a:hover {
+  color: #fbc02d;
+}
+.sp-module .tagscloud .tag-name:hover {
+  background: #fbc02d;
+}
+.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li.active > a,
+.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li > a:hover {
+  background: #fbc02d;
+}
+.search .btn-toolbar button {
+  background: #fbc02d;
+}
+.post-format {
+  background: #fbc02d;
+}
+.voting-symbol span.star.active:before {
+  color: #fbc02d;
+}
+.sp-rating span.star:hover:before,
+.sp-rating span.star:hover ~ span.star:before {
+  color: #0e9cd1;
+}
+.entry-link,
+.entry-quote {
+  background: #fbc02d;
+}
+blockquote {
+  border-color: #fbc02d;
+}
+.carousel-left:hover,
+.carousel-right:hover {
+  background: #fbc02d;
+}
+#sp-footer {
+  background: #fbc02d;
+}
+.sp-comingsoon body {
+  background-color: #fbc02d;
+}
+.pagination>li>a,
+.pagination>li>span {
+  color: #000000;
+}
+.pagination>li>a:hover,
+.pagination>li>a:focus,
+.pagination>li>span:hover,
+.pagination>li>span:focus {
+  color: #000000;
+}
+.pagination>.active>a,
+.pagination>.active>span {
+  border-color: #fbc02d;
+  background-color: #fbc02d;
+}
+.pagination>.active>a:hover,
+.pagination>.active>a:focus,
+.pagination>.active>span:hover,
+.pagination>.active>span:focus {
+  border-color: #fbc02d;
+  background-color: #fbc02d;
+}
+/***** PRESET *****/
+#at-feature h4,
+.sppb-section-title h4 {
+    background: url(../../images/presets/preset1/border-title-prs1.png) no-repeat bottom center;
+}
+.at-team-item:hover h5,
+.at-team-item ul li:hover em,
+.at-about2-item i,
+.at-about2-item:hover h5,
+.at-counter-item h3,
+.at-intro-item i,
+.at-intro-item:hover h5,
+.at-phone-content-list ul li:hover em,
+.at-testimonial-item-right em:hover,
+.at-feature-item ul li:hover,
+.at-icon-box-item:hover .sppb-icon span i,
+.sp-slide-wrapper .ltmediumlightblack,
+.lt-testimonial .ltsmalltext span,
+.lt-banner-sub-left h3,
+.lt-banner-sub-right h3 {
+    color: #fbc02d!important;
+}
+.button,
+.pp-button,
+#at-contact,
+.progress-bar-sept,
+#at-call-action,
+.at-about-item .button,
+.projects-filter a.selected,
+.projects-wrapper .project-img:hover .project-img-extra,
+.at-skill-right .sppb-nav-tabs > li.active > a,
+.sp-slide-wrapper .at-button:hover,
+.at-service-item .button:hover,
+.at-service-item .sppb-icon span,
+.at-phone-content .button,
+.at-testimonial-item:hover .pull-left,
+.at-team-item .sppb-addon-text:after,
+.sp-slide-wrapper .at-button:hover,
+.lt-button:hover {
+    background: #fbc02d!important;
+}
+.blogDate {
+    background:#fbc02d;
+}
+.sp-slide-wrapper .lt-button:hover,
+.lt-button:hover {
+    border: 3px solid #fbc02d;
+}
+.sp-slide-wrapper .at-button:hover,
+#at-slider2 .button,
+#at-client .at-client-item,
+.projects-filter a,
+.item-page .project-img {
+   border-color: #fbc02d;
+}
+.at-intro-item span::before {
+    border-bottom: 30px solid #fbc02d;
+}
+.at-intro-item span::after {
+    border-top: 30px solid #fbc02d;
+}
+.projects-filter a.selected, 
+.projects-filter a.selected:hover,
+.projects-filter a:hover {
+    background: #5aaddd!important;
+}
+.projects-wrapper .project-img:hover .project-img-extra {
+    background: rgba(90, 173, 221, .7)!important;
+}

@@ -1,0 +1,114 @@
+
+/***************************************************************************************/
+/*
+/*		Author: AS Designing
+/*		Author URI: http://www.asdesigning.com
+/*		Theme URI: http://www.astemplates.com
+/*		
+/*		Note: Design for Large desktop
+/*
+/***************************************************************************************/
+
+@media (max-width: 1199px) 
+{
+	h1,
+	h2
+	{
+		font-size: 28px;
+	}
+
+	.moduletable.social ul li.separator 
+	{
+		display: block;
+	}
+	
+	#header-top-row .moduletable.social li a 
+	{
+		font-size: 10px;
+		height: 21px;
+		line-height: 21px;
+		margin-left: 3px;
+		margin-top: 1px;
+		width: 20px;
+	}
+	
+	#header-row .call-now .mod-custom
+	{
+		margin-top: 22px;
+	}
+		
+	#header-row #logo 
+	{
+		margin-top: 5px;
+	}
+		
+	.slide_title
+	{
+		font-size: 100px;
+	}
+	
+	#camera-slideshow	
+	{
+		min-height: inherit;
+	}
+		
+	.camera_caption a.readmore
+	{
+		right: 60px;
+	}
+	
+	.mod-newsflash-adv__links .item_content ul li a
+	{
+		font-size: 12px;
+	}
+	
+	.page-gallery .item_title
+	{
+		padding-top: 20px;
+	}
+	
+	.masonry_gallery .mod-newsflash-adv .item_content	
+	{
+		text-align: center;	
+	}
+	
+	.page-blog .cols-2 .item_img
+	{
+		max-width: 50%;	
+	}
+	
+	.masonry_gallery .mod-newsflash-adv .item_content .readmore
+	{
+		float: none;
+		padding-right: 0px;	
+	}
+	
+	.masonry_gallery .mod-newsflash-adv .item_content .item_title
+	{
+		padding-top: 50px;
+	}
+	
+	.page-gallery .item_introtext,
+	.masonry_gallery .mod-newsflash-adv .item_content .item_introtext
+	{
+		display: none;
+	}	
+	
+	
+
+	#footer-row .moduletable.social li a 
+	{
+		font-size: 40px;
+		height: 85px;
+		width: 85px;
+		line-height: 85px;
+	}
+	
+	/*************** Virtue Mart ********************************************************/	
+		
+	.vm-col-4 select, .vm-col-3 select
+	{
+		width: 100%;
+	}
+	
+}

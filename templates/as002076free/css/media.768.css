@@ -1,0 +1,523 @@
+/***************************************************************************************/
+/*
+/*		Author: AS Designing
+/*		Author URI: http://www.asdesigning.com
+/*		Theme URI: http://www.astemplates.com
+/*		
+/*		Note: Design for a width of 768px (Landscape phone to portrait tablet)
+/*
+/***************************************************************************************/
+
+@media (max-width: 767px) 
+{
+
+	body
+	{
+		padding: 0 !important;
+	}
+	
+	.body__splash [class*="span"]
+	{
+		margin-bottom: 0;
+	}
+	
+	h1,
+	h2
+	{
+		font-size: 24px;
+	}
+	
+	#top-row [class*="span"],
+	#navigation-row [class*="span"]
+	{
+		margin-bottom: 0px;	
+	}
+	
+	.container
+	{
+		margin-left: 20px !important;
+		margin-right: 20px !important;
+	}
+	
+	.wrapper
+	{
+		margin: 0;
+	}
+	
+	.wrapper-inner
+	{
+		padding-top: 0px;
+	}
+	
+	#push
+	{
+		display: none;
+	}
+
+	.header-wrapper
+	{
+		background-image: none;		
+	}
+	
+	.newsflash-wrapper
+	{
+		text-align: center;
+	}
+	
+	.body__splash .header-wrapper
+	{
+		margin: 0px;	
+	}
+
+	#as-menu .select-menu
+	{
+		margin: 20px 0px;
+	}
+
+	#as-menu .select-menu option 
+	{
+		padding: 1px 0 1px 10px;
+	}
+
+	#as-menu ul.as-menu
+	{
+		display: none !important;
+	}
+
+	#header-top-row .call-us
+	{
+		margin-left: 20px;	
+	}
+	
+	#header-top-row .moduletable.navigation 
+	{
+		margin: 20px 0px 0px;	
+	}
+	
+	.masonry_gallery .mod-newsflash-adv .item_content .item_title
+	{
+		padding-top: 25px;
+	}
+		
+	.page-gallery .item_introtext, 
+	.masonry_gallery .mod-newsflash-adv .item_content .item_introtext 
+	{
+		display: block;
+	}
+
+	.masonry_gallery .mod-newsflash-adv .img-intro__none img 
+	{
+		width: 99%;
+		text-align: left;
+	}
+	
+	.masonry_gallery .mod-newsflash-adv .item_img
+	{
+		width: 100%;
+	}
+	
+	.mod-menu__social
+	{
+		margin-right: 80px;
+	}
+	
+	#header-row
+	{
+		position: relative;
+	}
+	
+	#header-row #logo
+	{
+		margin-bottom: 0px;
+	}
+	
+	#header-row .container
+	{
+		background: none;
+		border-bottom: none;
+		box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);		
+	}
+	
+	#header-row .moduletable.call-now div 
+	{
+    	padding: 0px;
+	}	
+	
+	#header-row .mod-search
+	{
+		margin: 40px;
+	}
+	
+	#header-row .moduletable.call-now
+	{
+		margin-bottom: 0px;	
+	}
+	
+	#header-row .moduletable.social
+	{
+		margin: 10px 0px 0px 0px;	
+	}
+	
+	#header-row .moduletable.navigation
+	{
+		width: 99.5%;
+		margin: 0px auto;
+		clear: both;
+	}
+	
+	.moduletable.slider
+	{
+		overflow: hidden;
+	}
+	
+	#slider-row
+	{
+		display: none;	
+	}
+	
+	.slide_title
+	{
+		display: none !important;
+	}	
+	
+	#camera-slideshow .camera_caption p,
+	.camera_caption
+	{
+		display: none !important;
+	}
+	
+	.camera_caption a.readmore
+	{
+		right: inherit;
+	}
+	
+	#header-row .select-menu 
+	{
+		min-width: 283px;
+	}
+		
+	
+	
+	#breadcrumbs-row .moduletable
+	{
+		margin-bottom: 0px;
+	}
+	
+	.page-featured .items-leading .item__featured, 
+	.page-featured .items-row:last-child .item__featured
+	{
+		padding-bottom: 45px;	
+	}
+		
+	.page-blog .items-row.cols-3 .item_img.img-intro 
+	{
+		width: 98.5%;
+	}
+	
+	.page-blog .cols-2 .item_img 
+	{
+    	max-width: 100%;
+	}
+
+	.page-blog .items-row .span6 .item
+	{
+		border-bottom: 1px solid #525252;
+		margin-bottom: 30px;
+		padding-bottom: 20px;
+		overflow: hidden;
+	}
+	
+	.page-blog .items-row.cols-2	
+	{
+		border-bottom: none;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+		overflow: hidden;
+	}	
+	
+	.page-category__clients .item
+	{
+		overflow: hidden;
+		margin-bottom: 20px;
+	}
+	
+	.page-category__clients .item_img
+	{
+		float: left;
+		margin-right: 20px;
+		clear: none !important;
+	}
+	
+	.page-featured .items-row .item__featured
+	{
+	}
+		
+	a.btn, a.readmore, 
+	.btn_info, 
+	.btn-info, 
+	.btn-group button.btn, 
+	.mod-newsflash a.readmore, 
+	.btn-primary, 
+	.btn_primary, 
+	.contentpane .button
+	{
+		text-wrap:none;
+	}
+				
+	.item-image.blog-image
+	{
+		float: none;
+		margin: 0 0 20px 0;
+	}
+
+	.img-full__left.span5
+	{
+		width: 50%;
+	}
+		
+	.row-fluid [class*="itemSpan"] 
+	{
+		display: block;
+		float: none;
+		margin-left: 0;
+		width: auto;
+	}
+	
+	.span9 .row-fluid [class*="span"] .img-intro__none,
+	.span9 .row-fluid [class*="span"] .img-full__none,
+	.span6 .row-fluid [class*="span"] .img-intro__none,
+	.span6 .row-fluid [class*="span"] .img-full__none
+	{
+		width: 98.5%;	
+	}	
+
+	.page-item
+	{
+		padding-bottom: 0px;
+	}
+	
+	.page-gallery li.item
+	{
+		width: 47%;
+	}
+	
+	.page-gallery .view
+	{
+	}
+	
+	.page-gallery .item_img.img-intro
+	{
+		float: left;
+		margin: 0;
+		
+	}
+	
+	.contact_form
+	{
+		width: 50%;
+	}
+	
+	.contact_details
+	{
+		margin-bottom: 20px;
+	}
+	
+	.contact_details .span6
+	{
+		width: 50%;
+		float: left;
+	}
+	
+	.mod-search__aside .mod-search_searchword
+	{
+		width: 50%;
+	}
+	
+	.mod-login__aside .mod-login_username,
+	.mod-login__aside .mod-login_passwd
+	{
+		width: 50%;
+	}
+
+	aside
+	{
+		margin-top: 0px;
+	}
+	
+	#aside-row-1-left .moduletable,
+	#aside-row-2-left .moduletable
+	{
+		margin-right: 0px;
+	}
+	
+	aside .mod-search button.btn.btn-search 
+	{
+		margin-top: 0px;
+	}
+	
+	.acymailing_form, 
+	.acymailing_form .acysubbuttons
+	{
+		text-align: left;	
+	}
+	
+	#footer
+	{
+		height: auto;
+	}
+	
+	#footer p
+	{
+		margin-bottom: 0;
+	}
+	
+	.mod-footer
+	{
+		position: relative;
+		top: -48px;
+	}
+	
+	.footer-row-1 .span3 .item_img,
+	.footer-row-1 .span4 .item_img,
+	.footer-row-1 .span3 img,
+	.footer-row-1 .span4 img	
+	{
+		width: auto;	
+	}
+	
+	
+	
+	#footer #copyright-row
+	{
+		text-align: center;	
+	}
+	
+	#trademark,
+	#copyright-menu
+	{
+		float: none;
+		clear: both;
+	}	
+  
+  	.moduletable.social
+  	{
+    	float: none;
+    	margin-top: 10px;
+  	}
+  
+  	.moduletable.social .nav
+  	{
+    	float: none;
+    	text-align: center;
+  	}
+	
+	#footer-row .moduletable.social li a 
+	{
+		font-size: 40px;
+		height: 80px;
+		line-height: 80px;
+		margin-bottom: 20px;
+		width: 80px;
+	}	
+	
+	#footer-row .module_title,
+	#footer-row .moduletable
+	{
+		text-align: center !important;
+	}
+		
+	.nspArt
+	{
+		width: 100% !important;
+		padding-bottom: 40px !important;
+	}
+	
+	/*************** Virtue Mart ********************************************************/	
+	
+	.vm-col-2, .vm-col-3, .vm-col-4
+	{
+		margin: 0 0 3em 0 !important;
+		width: 98%;
+	}
+	
+	.category-view .row .category .spacer h2 a img
+	{
+		width: 50% !important;
+	}
+	
+		
+	.manufacturer-view-default .row .manufacturer[class*="width"]
+	{
+		width: 33%;
+		float: left;
+	}
+	
+	#content-row-4 .vmgroup img
+	{
+		width: auto;
+	}
+	
+	.cart-summary tr
+	{
+		background: none repeat scroll 0 0 #eee;
+		border-bottom: 20px solid #fff !important;
+	}
+	
+	.cart-summary td:before
+	{
+		content: attr(data-title);
+		float: left;
+		font-weight: bold;
+	}
+	
+	.cart-summary tr td
+	{
+		float: left;
+		width: 90%;
+		padding: 20px;
+		text-align: right;
+		float: 16px;
+	}
+	
+	.cartProductName img
+	{
+		margin: 30px !important;
+	}
+	
+	.cartProductName a,
+	.cartProductSku .sku
+	{
+		
+	}
+	
+	table.cart-summary tr th
+	{
+		display: none;
+	}
+	
+	.category-view .spacer
+	{
+		text-align: center;
+	}
+	
+	.moduletable.cart
+	{
+		width: 100%;
+	}
+	
+	.zoomWindow, .zoomPup, .zoomPreload
+	{
+		display: none !important;
+	}
+	
+	.zoomPad img, #product_image
+	{
+		width: 100%;
+		height; 100%;
+	}
+	
+	.vm-product-container
+	{
+		float: none !important;
+	}
+}

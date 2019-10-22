@@ -1,0 +1,180 @@
+a {
+  color: #2bb673;
+}
+a:hover {
+  color: #218d59;
+}
+.sp-megamenu-parent >li.active>a,
+.sp-megamenu-parent >li:hover>a {
+  background: #2bb673;
+}
+.sp-megamenu-parent .sp-dropdown li.sp-menu-item >a:hover {
+  background: #2bb673;
+}
+.sp-megamenu-parent .sp-dropdown li.sp-menu-item.active>a {
+  color: #2bb673;
+}
+#offcanvas-toggler >i {
+  color: #000000;
+}
+#offcanvas-toggler >i:hover {
+  color: #2bb673;
+}
+.btn-primary,
+.sppb-btn-primary {
+  border-color: #259d63;
+  background-color: #2bb673;
+}
+.btn-primary:hover,
+.sppb-btn-primary:hover {
+  border-color: #1c784c;
+  background-color: #218d59;
+}
+ul.social-icons >li a:hover {
+  color: #2bb673;
+}
+.sp-page-title {
+  background: #2bb673;
+}
+.layout-boxed .body-innerwrapper {
+  background: #ffffff;
+}
+.sp-module ul >li >a {
+  color: #000000;
+}
+.sp-module ul >li >a:hover {
+  color: #2bb673;
+}
+.sp-module .latestnews >div >a {
+  color: #000000;
+}
+.sp-module .latestnews >div >a:hover {
+  color: #2bb673;
+}
+.sp-module .tagscloud .tag-name:hover {
+  background: #2bb673;
+}
+.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li.active > a,
+.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li > a:hover {
+  background: #2bb673;
+}
+.search .btn-toolbar button {
+  background: #2bb673;
+}
+.post-format {
+  background: #2bb673;
+}
+.voting-symbol span.star.active:before {
+  color: #2bb673;
+}
+.sp-rating span.star:hover:before,
+.sp-rating span.star:hover ~ span.star:before {
+  color: #218d59;
+}
+.entry-link,
+.entry-quote {
+  background: #2bb673;
+}
+blockquote {
+  border-color: #2bb673;
+}
+.carousel-left:hover,
+.carousel-right:hover {
+  background: #2bb673;
+}
+#sp-footer {
+  background: #2bb673;
+}
+.sp-comingsoon body {
+  background-color: #2bb673;
+}
+.pagination>li>a,
+.pagination>li>span {
+  color: #000000;
+}
+.pagination>li>a:hover,
+.pagination>li>a:focus,
+.pagination>li>span:hover,
+.pagination>li>span:focus {
+  color: #000000;
+}
+.pagination>.active>a,
+.pagination>.active>span {
+  border-color: #2bb673;
+  background-color: #2bb673;
+}
+.pagination>.active>a:hover,
+.pagination>.active>a:focus,
+.pagination>.active>span:hover,
+.pagination>.active>span:focus {
+  border-color: #2bb673;
+  background-color: #2bb673;
+}
+/***** PRESET *****/
+#at-feature h4,
+.sppb-section-title h4 {
+    background: url(../../images/presets/preset3/border-title-prs3.png) no-repeat bottom center;
+}
+.at-team-item:hover h5,
+.at-team-item ul li:hover em,
+.at-about2-item i,
+.at-about2-item:hover h5,
+.at-intro-item i,
+.at-intro-item:hover h5,
+.at-counter-item h3,
+.at-phone-content-list ul li:hover em,
+.at-feature-item ul li:hover,
+.at-testimonial-item-right em:hover,
+.at-icon-box-item:hover .sppb-icon span i,
+.lt-testimonial .ltsmalltext span,
+.lt-banner-sub-left h3,
+.lt-banner-sub-right h3 {
+    color: #2bb673!important;
+}
+.button,
+.pp-button,
+#at-contact,
+.progress-bar-sept,
+#at-call-action,
+.at-about-item .button,
+.projects-filter a.selected,
+.projects-wrapper .project-img:hover .project-img-extra,
+.at-skill-right .sppb-nav-tabs > li.active > a,
+.sp-slide-wrapper .at-button:hover,
+.at-service-item .button:hover,
+.at-service-item .sppb-icon span,
+.at-phone-content .button,
+.at-testimonial-item:hover .pull-left,
+.at-team-item .sppb-addon-text:after,
+.sp-slide-wrapper .at-button:hover,
+.lt-button:hover {
+    background: #2bb673!important;
+}
+.blogDate {
+    background: #2bb673;
+}
+.sp-slide-wrapper .lt-button:hover,
+.lt-button:hover {
+    border: 3px solid #2bb673;
+}
+.sp-slide-wrapper .at-button:hover,
+#at-slider2 .button,
+#at-client .at-client-item,
+.projects-filter a,
+.item-page .project-img {
+   border-color: #2bb673;
+}
+.at-intro-item span::before {
+    border-bottom: 30px solid #5AADDD;
+}
+.at-intro-item span::after {
+    border-top: 30px solid #5AADDD;
+}
+.projects-filter a.selected, 
+.projects-filter a.selected:hover,
+.projects-filter a:hover {
+    background: #2bb673!important;
+}
+.projects-wrapper .project-img:hover .project-img-extra {
+    background: rgba(43, 182, 115, .7)!important;
+}

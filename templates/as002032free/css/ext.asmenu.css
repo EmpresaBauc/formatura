@@ -1,0 +1,522 @@
+
+/**************************************************************************************/
+/*
+/*		Web: http://www.asdesigning.com
+/*		Web: http://www.astemplates.com
+/*		License: GNU/GPL
+/*
+/**************************************************************************************/
+
+#as-menu .as-menu,
+#as-menu .as-menu *
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.navigation #as-menu
+{
+	background: transparent;
+	border-radius: 0;
+	position: relative;
+	min-height: 60px;
+	margin-top: 32px;
+	float: right;	
+}
+
+
+#as-menu ul.as-menu
+{
+	position: relative;
+	z-index: 150;
+	line-height: 1.0;
+}
+
+#as-menu ul.as-menu a
+{
+	display: block;
+	position: relative;
+}
+
+#as-menu ul.as-menu li:hover
+{
+	visibility: inherit;
+}
+
+#as-menu ul.as-menu li
+{
+	float: left;
+	position: relative;
+}
+
+.navigation #as-menu ul.as-menu > li
+
+{
+	padding: 0;
+	margin: 0;
+	width: auto !important;
+	text-align: center;
+	background: url('../images/bg-li.gif') left top no-repeat;
+	list-style:none;
+}
+.navigation #as-menu ul.as-menu > li.active,
+.navigation #as-menu ul.as-menu > li.current
+{
+   
+}
+
+.navigation #as-menu ul.as-menu > li.asHover,
+.navigation #as-menu ul.as-menu > li:hover
+{
+    
+}
+
+.navigation #as-menu ul.as-menu > li.active > a,
+.navigation #as-menu ul.as-menu > li:hover > a,
+.navigation #as-menu ul.as-menu > li.asHover > a,
+.navigation #as-menu ul.as-menu > li.current > a,
+.navigation #as-menu ul.as-menu > li.active > span,
+.navigation #as-menu ul.as-menu > li.asHover > span,
+.navigation #as-menu ul.as-menu > li.current > span
+{
+	background-color: #990000;
+    border: 0 ;
+    border-radius: 3px;
+        
+}
+
+#as-menu ul.as-menu > li + li
+{
+	margin-left: 2px !important;
+}
+
+#as-menu ul.as-menu > li.firstItem,
+#as-menu ul.as-menu > li:first-child
+{
+	background: none repeat scroll 0 0 transparent
+}
+
+.navigation #as-menu ul.as-menu > li > a,
+#as-menu ul.as-menu > li > span
+{
+    color: #fff;
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 15px  30px ;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: auto;   
+ 	
+}
+
+#as-menu ul.as-menu > li > a:hover,
+#as-menu ul.as-menu > li > span:hover
+{
+	background: none;
+	color: #000;
+}
+
+#as-menu ul.as-menu > li > a:hover > span,
+#as-menu ul.as-menu > li > span:hover > span
+{
+	background-position: center bottom !important;
+}
+
+#as-menu ul.as-menu > li.deeper > a
+{
+	position: relative;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+#as-menu ul.as-menu > li.deeper > a:after
+{
+	display: inline-block;
+	width: 7px;
+	height: 5px;
+	position: relative;
+	left: 12px;
+	top: -3px;
+	content: "";
+}
+
+#as-menu ul.as-menu li:hover > ul,
+#as-menu ul.as-menu li.asHover > ul
+{
+	top: 75px;
+}
+
+#as-menu ul.as-menu ul
+{
+	width: 191px;
+	display: none;	
+}
+
+.navigation #as-menu ul.as-menu ul
+{
+	position: absolute;
+	background: #990000;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;	
+}
+
+
+#as-menu ul.as-menu li:hover ul,
+#as-menu ul.as-menu li.asHover ul
+{
+	left: 0;
+	top: 52px;
+	z-index: 100;
+}
+
+#as-menu ul.as-menu li:hover li ul,
+#as-menu ul.as-menu li.asHover li ul
+{
+	top: -999em;
+}
+
+#as-menu ul.as-menu ul li
+{
+	width: 100%;
+	margin: 0 0 1px 0;
+	list-style: none;	
+}
+
+#as-menu ul.as-menu ul > li.deeper > a:after
+{
+	display: inline-block;
+	background: url('../images/dds.arrow.png') left top no-repeat;
+	width: 5px;
+	height: 7px;
+	position: relative;
+	left: -20px;
+	top: 9px;
+	float: right;
+	content: "";
+}
+
+.navigation #as-menu ul.as-menu ul ul
+{
+	left: 192px !important;
+	top: -12px !important;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;		
+}
+
+#as-menu ul.as-menu ul li.firstItem
+{
+	border: none;
+}
+
+.navigation #as-menu ul.as-menu ul li a
+{
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 26px;
+    padding: 0 0 0 30px;
+    text-align: left;
+    text-decoration: none;
+}
+
+#as-menu ul.as-menu ul li a:hover,
+#as-menu ul.as-menu ul li span:hover,
+#as-menu ul.as-menu ul li.active > a,
+#as-menu ul.as-menu ul li.asHover > a,
+#as-menu ul.as-menu ul li.active > span,
+#as-menu ul.as-menu ul li.asHover > span
+{
+	color: #000;
+}
+
+
+#as-menu ul.as-menu li li:hover ul,
+#as-menu ul.as-menu li li.asHover ul
+{
+	left: 10em;
+	top: 0;
+}
+
+#as-menu ul.as-menu li li:hover li ul,
+#as-menu ul.as-menu li li.asHover li ul
+{
+	top: -999em;
+}
+
+#as-menu ul.as-menu li li:hover ul,
+#as-menu ul.as-menu li li.asHover ul
+{
+	top: -1em;
+	left: 191px;
+}
+
+#as-menu ul.as-menu li li li:hover ul,
+#as-menu ul.as-menu li li li.asHover ul
+{
+	top: -1em;
+	left: 191px;
+}
+
+
+/************************************** as superfish menu *************************************************/
+
+
+.sf-menu
+{
+    background: transparent none repeat scroll 0 0;
+    border-radius: 0;
+    float: right;
+    margin-top: 32px;
+    min-height: 60px;
+    position: relative;
+}
+
+ul.sf-menu .sf-with-ul img
+{
+	padding: 0 5px 0 0;
+}
+
+ul.sf-menu > li.deeper > a::after 
+{
+    background: rgba(0, 0, 0, 0) url("../images/dd.arrow.png") no-repeat scroll left top;
+    content: "";
+    display: inline-block;
+    height: 5px;
+    left: 12px;
+    position: relative;
+    top: -4px;
+    width: 7px;
+}
+
+ul.sf-menu > li > a,
+ul.sf-menu > li > span
+{
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: auto;	
+}
+
+ul.sf-menu > li > span.separator
+{
+	font-size: 14px;
+}
+
+ul.sf-menu > li,
+ul.sf-menu > li:hover
+{
+	line-height: 20px;
+	list-style: outside none none;
+	margin: 0;
+	transition: background 0.3s ease 0.1s;
+	width: auto;
+	margin: 0px 0px 0px 2px;
+	padding: 0px;
+}
+
+ul.sf-menu > li.active,
+ul.sf-menu > li.current,
+ul.sf-menu > li:hover
+{
+}
+
+ul.sf-menu > li 
+{
+	content: none;
+}
+
+ul.sf-menu > li.active > a,
+ul.sf-menu > li.current > a,
+ul.sf-menu > li:hover > a,
+ul.sf-menu > li > a:hover,
+ul.sf-menu > li > span:hover
+{
+	color: #ffffff;
+}
+
+ul.sf-menu > li > a
+{
+	color: #ffffff;
+}
+
+ul.sf-menu > li.active a,
+ul.sf-menu > li.current a,
+ul.sf-menu > li.active a:hover,
+ul.sf-menu > li.current a:hover,
+ul.sf-menu > li.active:hover a,
+ul.sf-menu > li.current:hover a
+{
+	transition: all 0.3s ease 0.1s;
+	background-color: #990000;
+	border-radius: 3px;
+}
+
+ul.sf-menu > li.active a:hover,
+ul.sf-menu > li.current a:hover,
+ul.sf-menu > li.active:hover a,
+ul.sf-menu > li.current:hover a
+{
+	color: #000000;
+}
+
+ul.sf-menu > li:hover a
+{
+	transition: all 0.3s ease 0.1s;
+	background-color: #990000;
+	border-radius: 3px;	
+}
+
+ul.sf-menu ul
+{
+	border-radius: 0;
+	padding: 12px 0;
+	position: absolute;
+}
+
+ul.sf-menu ul
+{
+	left: 0px;
+	top: 103%;
+    background: #990000 none repeat scroll 0 0;
+    border-radius: 3px;
+    position: absolute;	
+}
+
+ul.sf-menu ul > li.deeper > a::after 
+{
+    background: rgba(0, 0, 0, 0) url("../images/ddr.arrow.png") no-repeat scroll left top;
+    content: "";
+    display: inline-block;
+    height: 7px;
+    left: 12px;
+    position: relative;
+    top: -1px;
+    width: 7px;
+}
+
+ul.sf-menu ul ul
+{
+    left: 101%;
+    top: -12px;
+}
+
+ul.sf-menu ul li
+{
+	float: left;
+	list-style: outside none none;
+	margin: 0px;
+	position: relative;
+}
+
+ul.sf-menu ul li a,
+ul.sf-menu ul li span
+{
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	color: #fff !important;
+	display: block;
+	line-height: 18px;
+	margin: 0;
+	text-align: left;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+    padding: 5px 20px;
+}
+
+ul.sf-menu ul li a:hover,
+ul.sf-menu ul li span:hover,
+ul.sf-menu ul li.active > a,
+ul.sf-menu ul li.active > span,
+ul.sf-menu ul li.asHover > span
+{
+	color: #000000 !important;
+}
+
+.btn-sf-menu,
+a .btn-navbar .btn-sf-menu
+{
+	margin-top: 10px;
+}
+
+@media (max-width: 980px)
+{
+	ul.sf-menu > li > a, 
+	ul.sf-menu > li > span 
+	{
+		padding: 15px 20px;
+	}	
+}
+
+@media (max-width: 768px)
+{
+	
+	ul.sf-menu 
+	{
+		float: none;
+		margin-top: 0px;
+		min-height: 0px;
+		position: relative;
+	}
+	
+	.btn-sf-menu,
+	.navigation .btn-sf-menu,
+	a .btn .btn-navbar .btn-sf-menu
+	{
+		margin: 10px 0px 30px;
+		background-color: #990000;
+		padding: 10px 35px !important;
+	}
+	
+	ul.sf-menu > li, 
+	ul.sf-menu > li:hover
+	{
+		margin: 2px 0px 0px;
+	}
+	
+	ul.sf-menu > li.active, 
+	ul.sf-menu > li.current, 
+	ul.sf-menu > li:hover 
+	{
+    	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	    transition: background 0.3s ease 0.1s;
+	}
+	
+	ul.sf-menu li.lastItem
+	{
+		margin-bottom: 40px;
+	}
+
+	.navigation ul.sf-menu ul
+	{
+		border: none;
+		margin-top: 2px;
+	    padding: 20px 0;
+	}
+	
+	ul.sf-menu ul li.lastItem
+	{
+		margin-bottom: 0px;
+	}
+		
+	ul.sf-menu ul li a, 
+	ul.sf-menu ul li span
+	{
+		text-align: center;
+		width: 100% !important;
+		padding: 5px 0px !important;			
+	}
+	
+	.navigation ul.sf-menu ul ul 
+	{
+		background: none;
+		padding: 10px 0;
+	}	
+
+}

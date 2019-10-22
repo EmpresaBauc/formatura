@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="2.5">
+<name>POWr About Us</name>
+<author>POWr.io</author>
+<creationDate>Jul 2017</creationDate>
+<version>4.0</version>
+<license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+<authorEmail>info@powr.io</authorEmail>
+<authorUrl>https://www.powr.io</authorUrl>
+<packagename>POWr About Us</packagename>
+<packager>POWr.io</packager>
+<packagerurl>http://www.powr.io/</packagerurl>
+<description>Build visitor trust with a professional profile</description>
+<files folder="packages">
+  <file type="module" client="site">mod_powraboutus.zip</file>
+  <file type="plugin" group="client">plg_powrshortcodes.zip</file>
+  <file type="plugin" group="client">plg_powricon.zip</file>
+</files>
+<updateservers>
+  <server type="extension" priority="2" name="POWr About Us Updates">https://www.powr.io/joomla/update_powraboutus.xml</server>
+</updateservers>
+</extension>

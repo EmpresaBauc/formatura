@@ -1,0 +1,6 @@
+Antes de rodar o site no joomla, verifique se o banco está devidamente importado no banco de dados Mysql.
+
+Para isso é necessário criar um banco com o nome joomla e realizar a importação do arquivo joomla.sql
+
+A pasta formatura deverá estar dentro da pasta htdocs no windows, ou dentro da pasta do html, que está dentro de WWW, no linux.
+
